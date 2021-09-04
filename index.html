@@ -20,12 +20,33 @@
 <h1 id="h1">AI PING PONG GAME 2021<button id="b1" data-toggle="modal" data-target="#mymodal">Instructions</button></h1>
 </div>
 <br>
-<button class="btn btn-primary" onclick="start_game()" id="start">PLAY GAME</button>
+<button class="btn btn-primary" onclick="startgame()" id="start">PLAY GAME</button>
+<button class="btn btn-primary" onclick="restartgame()" id="start">REPLAY GAME</button>
 <br>
 <br>
 <h3 id="status" class="btn btn-danger"></h3>
 <br>
 <div id="canvas"></div>
+<div id="mymodal" class="modal fade">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button class="close" data-dismiss="modal">
+    &times;
+    </button>
+    <h4>Instructions to PARTY !</h4>
+    </div>
+    <div class="modal-body">
+<h4>Press fn and f11 if in HP of if in Mac then pls press command shift F of if in normal laptop then simply press f11 </h4>
+<hr>
+<h4> Move your nose up to go up</h4>
+<hr>
+<h4>Move your nose down to go down</h4>
+
+    </div>
+    </div>
+    </div>
+    </div>
 </center>
 <script src="main.js"></script>
 </body>

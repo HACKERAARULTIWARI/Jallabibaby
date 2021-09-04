@@ -16,9 +16,9 @@ var pcscore =0;
 var ball = {
     x:350/2,
     y:480/2,
-    r:20,
-    dx:3,
-    dy:3
+                                                         r:20,
+    dx:20,
+    dy:20
 }
 
 function setup(){
